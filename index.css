@@ -4,21 +4,88 @@
 
 h1 {
     font-family: 'Chelsea Market', cursive;
+    display: inline-block;
+}
+
+.headerPic {
+    display: inline-block;
+    width: 30%;
+}
+
+.headerText {
+    width: 45%;
+    border: 5px solid black;
+    display: inline-block;
+    text-align: center;
 }
 
 body{
     font-family: 'Roboto Mono', monospace;
+    background-color: #DDB9A3;
+    text-align: center;
+    display: inline-block;
 }
 
-.firstBox, .footerNav {
+.nav {
+    border:5px solid black;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.firstButton, .footerNav {
     background: #FF764E;
+    border: 5px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
 }
 
-.secondBox {
+.secondButton {
     background: #5ED3EB;
+    border: 5px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
 }
 
-.thirdBox {
+.thirdButton {
     background: #FFCD69;
+    border: 5px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.curve { 
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.footerNav {
+    border: 5px solid black;
+    width: 100%;
+    color: white;
+    background-color: #F9E7DC;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
